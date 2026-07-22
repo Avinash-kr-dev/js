@@ -87,3 +87,28 @@ function cat(){
     
 }
 console.log(typeof cat);  //function
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) and Heap (Non-Primitive) Memory
+
+let myYoutubeName = "professionalYtuber"
+let anotherName = myYoutubeName
+anotherName = "Pro aur coffee"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aviansh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
