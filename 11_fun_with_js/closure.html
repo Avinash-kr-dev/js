@@ -10,58 +10,58 @@
     <button id="green">green</button>
   </body>
   <script>
-    // function init() {
-    //     let name = "Mozilla;"
+    function init() {
+        let name = "Mozilla;"
 
-    //     function displayName() {
-    //         console.log(name);
-    //     }
-    //     displayName();
-    // }
-    // init();
+        function displayName() {
+            console.log(name);
+        }
+        displayName();
+    }
+    init();
 
-    // function outer() {
-    //   let userName = 'avinash'
-    //   console.log('OUTER', secret)
+    function outer() {
+      let userName = 'avinash'
+      console.log('OUTER', secret)
 
-    //   function inner() {
-    //     let secret = 'my123'
-    //     console.log('INNER', userName)
-    //   }
-    //   function innerTwo() {
-    //     console.log('innerTwo', userName)
-    //     console.log(secret)
-    //   }
-    //   inner()
-    //   innerTwo()
-    // }
+      function inner() {
+        let secret = 'my123'
+        console.log('INNER', userName)
+      }
+      function innerTwo() {
+        console.log('innerTwo', userName)
+        console.log(secret)
+      }
+      inner()
+      innerTwo()
+    }
 
-    // outer()
-    // console.log('TOO OUTER', userName)
+    outer()
+    console.log('TOO OUTER', userName)
 
 
-    // function makeFunc() {
-    //     const name = "Mozilla";
-    //     function displayName() {
-    //         console.log(name);
-    //     }
-    //     return displayName;
-    // }
+    function makeFunc() {
+        const name = "Mozilla";
+        function displayName() {
+            console.log(name);
+        }
+        return displayName;
+    }
 
-    // const myFunc = makeFunc();
-    // myFunc();
+    const myFunc = makeFunc();
+    myFunc();
 
 
 
   </script>
 
   <script>
-    // document.querySelector('#orange').onclick = function() {
-    //     document.body.style.backgroundColor = `orange`
-    // }
-    // document.querySelector('#green').onclick = function() {
-    //     document.body.style.backgroundColor = `green`
-    // }
+    document.querySelector('#orange').onclick = function() {
+        document.body.style.backgroundColor = `orange`
+    }
+    document.querySelector('#green').onclick = function() {
+        document.body.style.backgroundColor = `green`
+    }
 
     function clickHandler(color){
         // document.body.style.backgroundColor = `${color}`
